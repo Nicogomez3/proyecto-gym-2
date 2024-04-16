@@ -1,0 +1,61 @@
+
+
+.pics-background {
+    background-color: #333;
+  }
+  
+  .home-container {
+    background-color: #333;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+    background-position: center;
+    height: 100vh; /* Esto asegura que el fondo ocupe toda la altura de la pantalla */
+  }
+
+  .body-container {
+    background-color: #353535;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 2200px;
+    height: 100vh;
+  }
+  
+  .button-container {
+    display: flex; /* Establece el contenedor como un flex container */
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .register-button,
+  .login-button {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .register-button:hover,
+  .login-button:hover {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #004e92, #000428);
+    transition: all 0.5s ease;
+  }
+
+  #RegisterButton {
+    width: 35%; /* Define el ancho de cada botón */
+    /* margin-top: 10%; */
+  }
+
+  #LoginButton {
+    width: 50%;
+  }
+  
+  #LogoFuerte {
+    height: 150%;
+    width: 50%;
+    /* background-color: blueviolet; */
+  }
